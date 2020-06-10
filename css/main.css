@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+.left {
+    background: -webkit-linear-gradient(#192e3b, #6b6255, #241f1c);
+    /* Safari 5.1-6.0 */
+    background: -o-linear-gradient(#384852, #6b6255, #241f1c);
+    /* Opera 11.1-12.0 */
+    background: -moz-linear-gradient(#384852, #6b6255, #241f1c);
+    /* Firefox 3.6-15 */
+    background: linear-gradient(#384852, #6b6255, #241f1c);
+    /* 标准语法 */
+    width: 400px;
+    height: 100%;
+    float: left;
+    display: flex;
+    display: -webkit-flex;
+    /* Safari */
+}
+
+.right {
+    box-sizing: border-box;
+    height: 100%;
+    margin-left: 400px;
+    padding: 100px;
+    min-width: 750px;
+}
+
+.box {
+    width: 300px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.head-p {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.item {
+    margin: 15px;
+}
+
+p.item{
+    color: wheat;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.icon-div {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    /* Safari */
+    justify-content: flex-start;
+}
+
+.icon {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.icon i{
+    color: white;
+}
+
+.content {
+    box-sizing: border-box;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.content h2 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom: 2px wheat solid;
+    color: #384852;
+}
+
+.content p {
+    margin: 8px;
+    font-size: 18px;
+}
+
+.content ul {
+    margin-left: 2em;
+}
+
+.content ul li {
+    margin: 5px;
+    font-size: 18px;
+}
+
+
+.awards p{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
